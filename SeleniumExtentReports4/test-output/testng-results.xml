@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21792" started-at="2020-08-08T19:58:24Z" finished-at="2020-08-08T19:58:46Z">
+  <suite name="Default suite" duration-ms="24583" started-at="2020-08-19T19:29:26Z" finished-at="2020-08-19T19:29:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21792" started-at="2020-08-08T19:58:24Z" finished-at="2020-08-08T19:58:46Z">
+    <test name="Default test" duration-ms="24583" started-at="2020-08-19T19:29:26Z" finished-at="2020-08-19T19:29:51Z">
       <class name="ExtentReportsDemo.DemoExtentReports">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="startReport" is-config="true" duration-ms="519" started-at="2020-08-09T01:28:24Z" finished-at="2020-08-09T01:28:25Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="startReport" is-config="true" duration-ms="581" started-at="2020-08-20T00:59:26Z" finished-at="2020-08-20T00:59:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="setup" is-config="true" duration-ms="9925" started-at="2020-08-09T01:28:25Z" finished-at="2020-08-09T01:28:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="setup" is-config="true" duration-ms="11418" started-at="2020-08-20T00:59:27Z" finished-at="2020-08-20T00:59:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyLogo()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="verifyLogo" duration-ms="137" started-at="2020-08-09T01:28:35Z" finished-at="2020-08-09T01:28:35Z">
+        <test-method status="FAIL" signature="verifyLogo()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="verifyLogo" duration-ms="220" started-at="2020-08-20T00:59:38Z" finished-at="2020-08-20T00:59:38Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="getResult" is-config="true" duration-ms="1351" started-at="2020-08-09T01:28:35Z" finished-at="2020-08-09T01:28:36Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="getResult" is-config="true" duration-ms="1518" started-at="2020-08-20T00:59:38Z" finished-at="2020-08-20T00:59:40Z">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="setup" is-config="true" duration-ms="8272" started-at="2020-08-09T01:28:36Z" finished-at="2020-08-09T01:28:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="setup" is-config="true" duration-ms="8509" started-at="2020-08-20T00:59:40Z" finished-at="2020-08-20T00:59:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="verifyTitle" duration-ms="9" started-at="2020-08-09T01:28:45Z" finished-at="2020-08-09T01:28:45Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="verifyTitle" duration-ms="13" started-at="2020-08-20T00:59:48Z" finished-at="2020-08-20T00:59:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="getResult" is-config="true" duration-ms="951" started-at="2020-08-09T01:28:45Z" finished-at="2020-08-09T01:28:46Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="getResult" is-config="true" duration-ms="1287" started-at="2020-08-20T00:59:48Z" finished-at="2020-08-20T00:59:50Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="endReport" is-config="true" duration-ms="606" started-at="2020-08-09T01:28:46Z" finished-at="2020-08-09T01:28:46Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:ExtentReportsDemo.DemoExtentReports@2ff4f00f]" name="endReport" is-config="true" duration-ms="1010" started-at="2020-08-20T00:59:50Z" finished-at="2020-08-20T00:59:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

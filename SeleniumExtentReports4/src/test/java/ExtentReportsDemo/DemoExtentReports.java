@@ -64,7 +64,7 @@ public class DemoExtentReports {
 	@BeforeMethod
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\Selenium\\Selenium Browsers Jars\\Chrome\\Chrome 84\\chromedriver.exe");
+				"D:\\Selenium\\Selenium Browsers Jars\\Chrome 84\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
